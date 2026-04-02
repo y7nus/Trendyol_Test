@@ -1,0 +1,74 @@
+{
+  "HS_Kullanici_Bilgileri": {
+    "by": "xpath",
+    "value": "//span[text()='Kullanıcı Bilgilerim']"
+  },
+  "HS_Old_Password_Input": {
+    "by": "id",
+    "value": "oldPassword"
+  },
+  "HS_New_Password_Input": {
+    "by": "id",
+    "value": "password"
+  },
+  "HS_Password_Again_Button": {
+    "by": "id",
+    "value": "passwordAgain"
+  },
+  "HS_Guncelle_Button": {
+    "by": "css",
+    "value": "button.ty-button[type='submit']"
+  },
+  "HS_Adres_Bilgileri": {
+    "by": "xpath",
+    "value": "//span[normalize-space()='Adres Bilgilerim']"
+  },
+  "HS_Add_Address_Button": {
+    "by": "css",
+    "value": ".add-address-wrapper"
+  },
+  "HS_Name_Input": {
+    "by": "css",
+    "value": "input[placeholder='Adınızı giriniz']"
+  },
+  "HS_Surname_Input": {
+    "by": "css",
+    "value": "input[placeholder='Soyadınızı giriniz']"
+  },
+  "HS_Phone_Input": {
+    "by": "css",
+    "value": "input[placeholder='(___) ___ __ __']"
+  },
+  "ilDropdown": {
+    "by": "css",
+    "value": ".cityId .input-container"
+  },
+  "HS_Dropdown_Choice": {
+    "by": "css",
+    "value": "ul[class='items visible'] div div li"
+  },
+  "il_dropdown_textfield": {
+    "by": "css",
+    "value": "input[placeholder='Seçiniz']"
+  },
+  "ilce_dropdown_textfield": {
+    "by": "xpath",
+    "value": "(//input[@placeholder='Seçiniz'])[2]"
+  },
+  "mahalle_dropdown_textfield": {
+    "by": "css",
+    "value": "div[class='dropdown neighborhoodId full-width'] input[placeholder='Seçiniz']"
+  },
+  "HS_AddressLine_Input": {
+    "by": "css",
+    "value": "textarea[placeholder='Cadde, mahalle sokak ve diğer bilgileri giriniz.']"
+  },
+  "HS_addressName_Input": {
+    "by": "css",
+    "value": "input[placeholder='Adres Başlığı Giriniz']"
+  },
+  "HS_Kaydet_Button": {
+    "by": "css",
+    "value": "button[role='button']"
+  }
+}

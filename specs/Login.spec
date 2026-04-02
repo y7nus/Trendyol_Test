@@ -1,0 +1,14 @@
+#Login Test
+
+## Başarılı Giriş
+
+* "https://www.trendyol.com" adresine gidilir
+* Eğer varsa "CinsiyetPopup" butonuna tıkla
+* Eğer varsa "CookiePopup" butonuna tıkla
+* Eğer varsa "CinsiyetPopup" butonuna tıkla
+
+* "AS_LoginButton" butonuna tıklanır
+* "GS_EmailInput" alanına "y7nusemre@gmail.com" girilir
+* "GS_DevamEtButton" butonuna tıklanır
+* "GS_PasswordInput" alanına "yE00092002" girilir
+* "GS_LoginButton" butonuna tıklanır

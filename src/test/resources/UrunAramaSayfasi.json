@@ -1,0 +1,11 @@
+{"UAS_Urun_Arama": {
+"by": "css",
+"value": "input[placeholder='Ürün, kategori veya marka ara']"
+},
+"UAS_Urun_Tıklama": {
+"by": "css",
+"value": "[data-testid='suggestion-item']"
+}
+}
+
+

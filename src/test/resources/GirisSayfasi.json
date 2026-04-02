@@ -1,0 +1,26 @@
+{
+  "GS_EmailInput": {
+    "by": "css",
+    "value": "[data-testid='email-input']"
+  },
+  "GS_DevamEtButton": {
+    "by": "css",
+    "value": "[data-testid='email-check-button']"
+  },
+  "GS_PasswordInput": {
+    "by": "id",
+    "value": "login-password"
+  },
+  "GS_LoginButton": {
+    "by": "css",
+    "value": "[data-testid='login-button']"
+  },
+  "GS_Forgot_Password_Button": {
+    "by": "css",
+    "value": "[data-testid='forgot-password-button']"
+  },
+  "GS_Reset_Password_Button": {
+    "by": "css",
+    "value": "[data-testid='reset-password-sumbit-button']"
+  }
+}

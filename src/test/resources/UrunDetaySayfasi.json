@@ -1,0 +1,10 @@
+{
+  "UDS_Urun_Secme": {
+    "by": "css",
+    "value": "[data-testid='info-wrapper-div']"
+  },
+  "UDS_Sepete_Ekle_Button": {
+    "by": "css",
+    "value": "span.add-to-cart-button-text"
+  }
+}

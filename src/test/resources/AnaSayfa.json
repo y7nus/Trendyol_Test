@@ -1,0 +1,21 @@
+{
+  "AS_LoginButton": {
+    "by": "css",
+    "value": "a[aria-label='Giriş Yap']"
+  },
+  "AS_UrunAramaButton": {
+    "by": "css",
+    "value": ".suggestion-placeholder"
+  },
+  "AS_SepetimButton": {
+    "by": "css",
+    "value": "div[class='basket-icon'] div span"
+  },
+  "AS_HesabımButton": {
+    "by": "css",
+    "value": ".user-text.navigation-text"
+  }
+}
+
+
+

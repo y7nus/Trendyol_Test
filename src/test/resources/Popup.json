@@ -1,0 +1,5 @@
+{
+  "CookiePopup" : { "by" :  "id" , "value" :  "onetrust-accept-btn-handler"},
+  "OnboardingPopup" : { "by" :  "css" , "value" : ".onboarding__default-renderer-primary-button"},
+  "CinsiyetPopup" : { "by" : "css" , "value" : ".modal-section-close"}
+}
