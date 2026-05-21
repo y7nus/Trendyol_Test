@@ -11,13 +11,21 @@ import utils.ElementLocatorReader;
 public class BaseHelper {
 
     public void click(String key) {
+
         By locator = ElementLocatorReader.get(key);
+
         try {
-            ExecutionHook.wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
-        }catch (StaleElementReferenceException e) {
-            ExecutionHook.wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
+            ExecutionHook.wait
+                    .until(ExpectedConditions.elementToBeClickable(locator))
+                    .click();
+
+        } catch (StaleElementReferenceException e) {
+
+            ExecutionHook.wait
+                    .until(ExpectedConditions.elementToBeClickable(locator))
+                    .click();
         }
-        }
+    }
 
     public void scrollToElement(WebElement element) {
         JavascriptExecutor js = (JavascriptExecutor) ExecutionHook.driver;
@@ -37,7 +45,6 @@ public class BaseHelper {
         element.clear();
         element.sendKeys(text);
     }
-
 
 
 }

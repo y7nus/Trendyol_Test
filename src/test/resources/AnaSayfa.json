@@ -1,7 +1,7 @@
 {
   "AS_LoginButton": {
     "by": "css",
-    "value": "a[aria-label='Giriş Yap']"
+    "value": "a[aria-label='Giriş Yap'] div span"
   },
   "AS_UrunAramaButton": {
     "by": "css",
